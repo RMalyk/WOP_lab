@@ -1,0 +1,30 @@
+.section__title {
+	margin: 25px 0;
+	font-size: 24px;
+	color: rgb(99, 95, 87);
+}
+.crads {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 25%;
+	grid-template-rows: auto;
+	gap: 28px 28px;
+}
+.crad__item {
+	border: 1px solid #eeeeee;
+	// width: 228px;
+	// height: 313px;
+	box-shadow: 0px 1px 10px 4px rgba(34, 60, 80, 0.2);
+	display: block;
+	padding: 15px;
+}
+.card-img {
+	width: 100%;
+}
+.discount {
+	display: none;
+}
+
+.product__info {
+	font-size: 14px;
+	color: rgb(70, 65, 72);
+}
